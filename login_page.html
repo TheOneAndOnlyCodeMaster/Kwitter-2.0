@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kwitter 2.0</title>
+<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script src="kwitter.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1 class="center">Welcome to Glitter!</h1>
+    <h3 class="center">Like Twitter, but shiny</h3>
+    <div class="split left">
+        <center>
+            <img id="glitter" src="pink glitter.jpg">
+            <h4 class="center">G L I T T E R</h4>
+        </center>
+    </div>
+    <div class="split right">
+        <center>
+            <br><br><br><br><br><br><br>
+            <h3 class="center">Message Everyone!</h3>
+		<h4 class="center">Join Glitter today</h4>
+		<div class="form-group">
+		  <label class="center">User Name:</label>
+		  <br>
+          <br><br>
+			<input id="user_name" placeholder="Enter name here" type="text" class="form-control">
+		</div>
+		<button id="login_button" class="btn btn-primary" onclick="add_user()">Log in</button>
+        </center>
+    </div>
+    <script src="login_page.js"></script>
+</body>
